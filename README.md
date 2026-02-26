@@ -1,2 +1,2 @@
 # Hospital-Management-System
-This is Demo Application
+This is Demo Application.

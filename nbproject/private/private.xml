@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/addPatient.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/model/Admin.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/META-INF/context.xml</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/login.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/hospital/LoginServlet.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/MasterModel/BranchModel.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/hospital/ConnectionPool.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/addBranch.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/hospital/SavePatient.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/printBill.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/js/dashboard.js</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/model/Doctor.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/hospital/SaveDoctor.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/adminLogin.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/hospital/AdminLoginServlet.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/nurseRegistration.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/index.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/linkDepartment.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/WEB-INF/web.xml</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/model/Patient.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/adminDashboard.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/addDoctor.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/MasterServlet/DepartmentMasterServlet.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/MasterServlet/BranchMasterServlet.java</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/web/department.jsp</file>
+            <file>file:/C:/Users/ashis/OneDrive/Desktop/PROJECTS/HospitalMultispeciality/src/java/MasterModel/DepartmentModel.java</file>
+        </group>
+    </open-files>
+</project-private>

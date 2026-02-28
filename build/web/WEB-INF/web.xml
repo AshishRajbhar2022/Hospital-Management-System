@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- Application Name -->
+    <display-name>HospitalMultispeciality</display-name>
+    <!-- Welcome Files -->
+    
+   
+    <welcome-file-list>
+        <welcome-file>login.jsp</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>searchResult.jsp</welcome-file>
+        <welcome-file>addPatients.jsp</welcome-file>
+        <welcome-file>addDoctor.jsp</welcome-file>
+        <welcome-file>viewPatients.jsp</welcome-file>
+        <welcome-file>adminLogin.jsp</welcome-file>
+        <welcome-file>adminDashboard.jsp</welcome-file>
+        <welcome-file>addBranch.jsp</welcome-file>
+        <welcome-file>printBill.jsp</welcome-file>
+        <welcome-file>logout.jsp</welcome-file>
+    </welcome-file-list>
+    <!-- Login Servlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>hospital.LoginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>BranchMasterServlet</servlet-name>
+        <servlet-class>MasterServlet.BranchMasterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BranchMasterServlet</servlet-name>
+        <url-pattern>/BranchMasterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>DepartmentMasterServlet</servlet-name>
+        <servlet-class>MasterServlet.DepartmentMasterServlet</servlet-class>
+    </servlet>
+     <servlet-mapping>
+        <servlet-name>DepartmentMasterServlet</servlet-name>
+        <url-pattern>/DepartmentMasterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>hospital.AdminLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>SearchPatientServlet</servlet-name>
+        <servlet-class>hospital.SearchPatientServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchPatientServlet</servlet-name>
+        <url-pattern>/SearchPatientServlet</url-pattern>
+    </servlet-mapping>
+    <!-- View Patients Servlet -->
+    <servlet>
+        <servlet-name>ViewPatientsServlet</servlet-name>
+        <servlet-class>hospital.ViewPatientsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ViewPatientsServlet</servlet-name>
+        <url-pattern>/ViewPatientsServlet</url-pattern>
+    </servlet-mapping>
+    <!-- Add Patient Servlet -->
+    <servlet>
+        <servlet-name>SavePatient</servlet-name>
+        <servlet-class>hospital.SavePatient</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SavePatient</servlet-name>
+        <url-pattern>/SavePatient</url-pattern>
+    </servlet-mapping>
+    <!-- Add Doctor Servlet -->
+    <servlet>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <servlet-class>hospital.AddDoctorServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <url-pattern>/AddDoctorServlet</url-pattern>
+    </servlet-mapping>
+    <!-- JNDI Resource Reference -->
+    <resource-ref>
+        <description>Hospital DB Connection</description>
+        <res-ref-name>jdbc/hospitalDB</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+</web-app>

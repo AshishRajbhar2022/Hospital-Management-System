@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/HospitalMultispeciality">
+ <Resource 
+    name="jdbc/hospitalDB"
+    auth="Container"
+    type="javax.sql.DataSource"
+    driverClassName="com.mysql.cj.jdbc.Driver"
+    url="jdbc:mysql://localhost:3306/hospital_db"
+    username="root"
+    password="ashish@2022"
+    maxTotal="500"
+    maxIdle="50"
+    minIdle="5"
+    removeAbandonedOnBorrow="true"
+    removeAbandonedTimeout="60"
+    testWhileIdle="true"
+    timeBetweenEvictionRunsMillis="300000"/>
+</Context>
